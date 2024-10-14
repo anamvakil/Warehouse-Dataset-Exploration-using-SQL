@@ -1,6 +1,6 @@
-# Using SQL to explore the Warehouse Dataset
+# Data Exploration using SQL
 
-Uploading a warehouse dataset to the account to explore the COUNT and COUNT Distinct function
+Uploading a warehouse dataset to the BigQuery account. 
 
 ![image](https://github.com/user-attachments/assets/53f22bc9-357d-4375-b122-4924776426e4)
 
