@@ -1,6 +1,6 @@
-# Data Exploration using SQL
+# Warehouse Dataset Exploration using SQL
 
-Uploading a warehouse dataset to the BigQuery account. 
+Uploading a warehouse dataset to the BigQuery account 
 
 ![image](https://github.com/user-attachments/assets/53f22bc9-357d-4375-b122-4924776426e4)
 
