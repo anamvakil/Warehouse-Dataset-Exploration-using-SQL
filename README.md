@@ -102,21 +102,26 @@ SELECT
   COUNT(warehouse.state) as num_states
 FROM `absolute-accord-429300-g1.warehouse_orders.orders` AS orders
 JOIN `absolute-accord-4293Toouse_orders.warehouse` AS warehouse
-ON orders.war,ehouse_id = warehouse.warehouse_to return juste](https://github.com/userthettachments/assets/4d98ca7b-4849-45fb-8cad-29143a439a8f)
+ON orders.warehouse_id = warehouse.warehouse_id
+```
+
+(https://github.com/userthettachments/assets/4d98ca7b-4849-45fb-8cad-29143a439a8f)
 
 An important thing to note is how the query returned more than 9,000 results. There are only 50 states, so this is not the answer we are looking for! This is because the query counted every record (row) that included a state, regardless of duplicates or null values.
 
-```
+
 SELECT  
   COUNT (DISTINCT(warehouse.state)) as num_states
 FROM `absolute-accord-429300-g1.warehouse_orders.orders` AS orders
 JOIN `absolute-accord-429300-g1.warehouse_orders.warehouse` AS warehouse
 ON orders.warehouse_id = warehouse.warehouse_id
-```
+
+
 
 ![image](https://github.com/user-attachments/assets/ef5f79ea-27bc-4c95-a168-65bde5555cf4)
 
 In order to group the number of orders by state, we will use GROUP BY
+
 
 ```
 SELECT  
