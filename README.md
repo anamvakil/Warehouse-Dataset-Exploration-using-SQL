@@ -38,7 +38,7 @@ WHERE maximum_capacity>250;
 
 ![image](https://github.com/user-attachments/assets/844d091f-38c0-4956-9efd-2bf368cb6cd7)
 
-We can see that warehouse_alias has two categories of warehouse names. Let us consider we want to extract the records where warehouse_alias ends with "Centre"
+We can see that warehouse_alias has two categories of warehouse names. Let us consider we want to extract the records where warehouse_alias ends with "Center"
 
 ![image](https://github.com/user-attachments/assets/13a4b959-4a7e-4fe6-95cd-c586afc852ad)
 
