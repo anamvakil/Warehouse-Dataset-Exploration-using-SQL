@@ -1,6 +1,6 @@
 # Warehouse Dataset Exploration using SQL
 
-Uploading a warehouse dataset to the BigQuery account 
+In order to explore the use of SQL commands in data analysis I uploaded a warehouse dataset into the BigQuery account from the BigQuery market place.
 
 ![image](https://github.com/user-attachments/assets/53f22bc9-357d-4375-b122-4924776426e4)
 
